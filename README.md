@@ -1,4 +1,4 @@
-![Logo](admin/network-monitoring.png)
+![Logo](admin/doorbird.png)
 # ioBroker.network-monitoring
 
 [![NPM version](http://img.shields.io/npm/v/iobroker.network-monitoring.svg)](https://www.npmjs.com/package/iobroker.network-monitoring)
