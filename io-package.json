@@ -52,7 +52,7 @@
 		"main": "main.js",
 		"icon": "network-monitoring.png",
 		"enabled": true,
-		"extIcon": "https://raw.githubusercontent.com/DevBDK/ioBroker.network-monitoring/master/admin/network-monitoring.png",
+		"extIcon": "https://raw.githubusercontent.com/DevBDK/ioBroker.network-monitoring/main/admin/network-monitoring.png",
 		"readme": "https://github.com/DevBDK/ioBroker.network-monitoring/blob/master/README.md",
 		"loglevel": "info",
 		"mode": "daemon",
