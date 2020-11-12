@@ -1,0 +1,76 @@
+{
+	"common": {
+		"name": "network-monitoring",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Netzwerküberwachung",
+		"titleLang": {
+			"en": "Netzwerküberwachung",
+			"de": "Netzwerküberwachung",
+			"ru": "Netzwerküberwachung",
+			"pt": "Netzwerküberwachung",
+			"nl": "Netzwerküberwachung",
+			"fr": "Netzwerküberwachung",
+			"it": "Netzwerküberwachung",
+			"es": "Netzwerküberwachung",
+			"pl": "Netzwerküberwachung",
+			"zh-cn": "Netzwerküberwachung"
+		},
+		"desc": {
+			"en": "network-monitoring",
+			"de": "network-monitoring",
+			"ru": "network-monitoring",
+			"pt": "network-monitoring",
+			"nl": "network-monitoring",
+			"fr": "network-monitoring",
+			"it": "network-monitoring",
+			"es": "network-monitoring",
+			"pl": "network-monitoring",
+			"zh-cn": "network-monitoring"
+		},
+		"authors": [
+			"DejaVu <yemut.wissam@gmx.de>"
+		],
+		"keywords": [
+			"sniffing"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "network-monitoring.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/DevBDK/ioBroker.network-monitoring/master/admin/network-monitoring.png",
+		"readme": "https://github.com/DevBDK/ioBroker.network-monitoring/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "network",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}

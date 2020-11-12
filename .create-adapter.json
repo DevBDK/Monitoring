@@ -1,0 +1,39 @@
+{
+	"cli": true,
+	"adapterName": "network-monitoring",
+	"title": "Netzwerküberwachung",
+	"keywords": [
+		"sniffing"
+	],
+	"contributors": [
+		"DevBDK"
+	],
+	"expert": "no",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "network",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"adminReact": "no",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "DejaVu",
+	"authorGithub": "DevBDK",
+	"authorEmail": "yemut.wissam@gmx.de",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"license": "MIT License",
+	"ci": "gh-actions",
+	"dependabot": "no",
+	"creatorVersion": "1.30.1"
+}
